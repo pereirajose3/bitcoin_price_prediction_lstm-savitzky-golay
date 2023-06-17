@@ -16,6 +16,9 @@ To control the output of the LSTM network – the algorithm first had to observe
 	step=learning rate*gradient(loss,W) 	(3.1)
 	W=W-learning rate*gradient(loss,W) 	(3.2)
 
+ ![image](https://github.com/pereirajose3/bitcoin_price_prediction_lstm-savitzky-golay/assets/37916212/3095d9be-f4fa-4071-b0b0-9612c62071a6)
+
+
  
 Figure 3.2: Weights optimizer
 The gradient descent algorithm measures the local gradient of the loss value concerning the weights (w), and follows the direction that allows obtaining a greater gradient descent (Géron, 2019). When the gradient is zero, the minimum has been reached. The gradient calculates how much the loss value changes when the weights are slightly tweaked. This process is performed iteratively until the minimum is found. Equation 3.3 shows how to calculate the gradient; the aim is to find the set of weights that minimizes the loss value.
