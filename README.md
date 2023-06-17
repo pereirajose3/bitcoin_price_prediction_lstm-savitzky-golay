@@ -4,6 +4,7 @@ The interest in cryptocurrencies is increasing among individuals and investors. 
 Keywords: forecasting; cryptocurrency; Savitzky–Golay; LSTM; BiLSTM; neural networks
 
 # Methodology strategy
+
 ![Untitled](https://github.com/pereirajose3/bitcoin_price_prediction_lstm-savitzky-golay/assets/37916212/b32757c4-9086-46de-aafa-1fd38fb839ef)
 
 Our methodology follows the deep learning system architecture presented in figure 3.1. Deep learning is a subfield of machine learning and aims to mimic how humans gain a specific type of knowledge through experiences. The word ‘Deep’ represents using a neural network with more than three layers of depth (Chollet, 2021). The network depth creates a deep hierarchical representation learning, where layers are stacked on top of each other. It is a multistage information distillation process where the information is purified by passing through several filters. The network learns data representations through the multistage sequence process.
